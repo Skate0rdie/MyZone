@@ -48,6 +48,7 @@ class AdminController extends CommonController
         $dataProvider = new ActiveDataProvider([
             'query' => $sql,
             'pagination' => [
+            	'aaaD' => 1,
                 'pagesize' => '10',
             ]
         ]);
